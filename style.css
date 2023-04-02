@@ -1,15 +1,4 @@
-body{
-    background-image: url('img/bg.gif');
-    background-size: 100%;
-    background-repeat: repeat-x;
-}
 
-.jumbotron  {
-    
-    padding-top: 5rem;
-   
-
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
@@ -26,6 +15,7 @@ body{
 	right: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.7);
+	
 }
 .tampil-body {
 	display: flex;
@@ -53,4 +43,25 @@ body{
 
 	color: white;
 	padding: 10px;
+}
+
+.jumbotron  {
+    
+    padding-top: 5rem;
+	background-image: url('img/bg.gif');
+    background-size: 100%;
+    background-repeat: repeat-x;
+   
+
+}
+.about{
+	padding-top: 15rem;
+}
+
+.Gallery{
+	background-color: #dc3545;
+}
+
+section{
+	padding-top: 5rem;
 }

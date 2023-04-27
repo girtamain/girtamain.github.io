@@ -70,11 +70,18 @@ section {
 }
 
 .aa {
-  transition: all 0.3s;
+  overflow: hidden;
+  border-radius: 20px;
 }
 
-.aa:hover {
-  transform: scale(1.15);
+.aa img {
+  border-radius: 20px;
+  transition: all 1.2s ease;
+  color: aliceblue;
+}
+
+.aa:hover img {
+  transform: scale(1.1);
 }
 
 .teams {
@@ -83,7 +90,7 @@ section {
 }
 
 .sosmedt {
-  color: snow;
+  color: rgb(255, 8, 0);
 }
 
 .sosmedt:hover {
